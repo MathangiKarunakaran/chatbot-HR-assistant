@@ -1,0 +1,40 @@
+[
+  {
+    "emp_id": "1",
+    "leave_balance": {
+      "casual": 6,
+      "annual": 12,
+      "sick": 14
+    },
+    "leave_history": [
+      {
+        "leave_type": "casual",
+        "start_date": "2021-01-10",
+        "end_date": "2021-01-10",
+        "no_of_days": 1
+      },
+      {
+        "leave_type": "annual",
+        "start_date": "2021-02-01",
+        "end_date": "2021-02-02",
+        "no_of_days": 2
+      }
+    ]
+  },
+  {
+    "emp_id": "2",
+    "leave_balance": {
+      "casual": 7,
+      "annual": 10,
+      "sick": 14
+    },
+    "leave_history": [
+      {
+        "leave_type": "annual",
+        "start_date": "2021-01-01",
+        "end_date": "2021-01-04",
+        "no_of_days": 4
+      }
+    ]
+  }
+]
