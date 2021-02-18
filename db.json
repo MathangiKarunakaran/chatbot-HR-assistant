@@ -3,39 +3,39 @@
     {
       "id": "1",
       "employee_id": 1,
-      "returnCode": "0",
-      "returnMessage": "API data",
-      "casual": 7,
+      "maternity": 60,
       "annual": 14,
-      "sick": 12
+      "sick": 12,
+      "returnCode": "0",
+      "returnMessage": "API data"
     },
     {
       "id": "2",
       "type": "sick",
-      "start": "28-01-2021",
-      "end": "30-01-2021"
+      "start": "28-03-2021",
+      "end": "30-03-2021"
     }
   ],
   "employee_2": [
     {
       "id": "1",
       "employee_id": 2,
-      "casual": 5,
-      "annual": 14,
+      "maternity": 16,
+      "annual": 13,
       "sick": 14
     },
     {
       "id": "2",
-      "type": "casual",
-      "start": "03-02-2021",
-      "end": "05-02-2021"
+      "type": "maternity",
+      "start": "03-03-2021",
+      "end": "03-06-2021"
     }
   ],
   "employee_3": [
     {
       "id": "1",
       "employee_id": 3,
-      "casual": 7,
+      "maternity": 60,
       "annual": 14,
       "sick": 14
     }
