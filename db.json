@@ -1,40 +1,32 @@
-[
-  {
-    "emp_id": "1",
-    "leave_balance": {
-      "casual": 6,
-      "annual": 12,
-      "sick": 14
-    },
-    "leave_history": [
+{
+   "employee_1":[
       {
-        "leave_type": "casual",
-        "start_date": "2021-01-10",
-        "end_date": "2021-01-10",
-        "no_of_days": 1
+         "id":"1",
+         "employee_id":1,
+         "returnCode":"0",
+         "returnMessage":"API data",
+         "maternity":14
       },
       {
-        "leave_type": "annual",
-        "start_date": "2021-02-01",
-        "end_date": "2021-02-02",
-        "no_of_days": 2
+         "id":"2",
+         "type":"sick",
+         "start":"28-07-2020",
+         "end":"30-07-2020"
       }
-    ]
-  },
-  {
-    "emp_id": "2",
-    "leave_balance": {
-      "casual": 7,
-      "annual": 10,
-      "sick": 14
-    },
-    "leave_history": [
+   ],
+   "employee_2":[
       {
-        "leave_type": "annual",
-        "start_date": "2021-01-01",
-        "end_date": "2021-01-04",
-        "no_of_days": 4
+         "id":"1",
+         "employee_id":2,
+         "sick":4,
+         "regular":15,
+         "maternity":14
+      },
+      {
+         "id":"2",
+         "type":"regular",
+         "start":"03-08-2020",
+         "end":"05-08-2020"
       }
-    ]
-  }
-]
+   ]
+}
